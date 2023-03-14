@@ -1,0 +1,14 @@
+{
+  "name": "exemplo_piadas",
+  "version": "1.0.0",
+  "description": "Este é um exemplo criado em aula para mostrar como importar e usar pacotes do npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
