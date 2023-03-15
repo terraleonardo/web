@@ -7,5 +7,5 @@ for(var i = 0; i < 10; i++) {
     console.log("Rua: "+casual.street);
     console.log("Cidade: "+casual.city);
     console.log("País: "+casual.country);
-    console.log("CEP: "+casual.log+"\n");
+    console.log("CEP: "/*inserir função CEP aqui*/+"\n");
 }
