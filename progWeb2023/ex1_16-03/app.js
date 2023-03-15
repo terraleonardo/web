@@ -1,6 +1,6 @@
 const casual = require("casual").pt_BR;
 
-
+//criar função para CEP aqui!! (teste de branch do github também)
 
 for(var i = 0; i < 10; i++) {
     console.log("Nome e sobrenome: "+casual.full_name+" "+casual.last_name);
