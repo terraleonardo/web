@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family:monospace;
+    background-color: #ccccff
+    ;
+}
+
+h1 {
+    font-size: 30pt;
+    text-align: center;
+}
+
+ol {
+    font-size: 14pt;
+    margin: 20px;
+}
+
+.container-lista {
+    display: flex;
+    width: 180px;
+    height: 265px;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 5px 5px 0px;
+    background-color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 12pt;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
