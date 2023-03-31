@@ -24,7 +24,7 @@ function geraLista(listaMil, qtdExercicios) { //recebe por parâmetro o array de
 
 console.log(geraLista(geraMilDivisoes(100, 20), 10));
 
-function makeList() {
+function geraLista() {
     let listData = geraLista(geraMilDivisoes(100, 20), 10);
 
     let listContainer = document.querySelector('.container-lista');
@@ -46,4 +46,4 @@ function makeList() {
     }
 }
 
-makeList();
+geraLista();
