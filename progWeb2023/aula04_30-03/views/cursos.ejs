@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+</head>
+<body>
+    <h1>Crusos do Campus Osório:</h1>
+    <ul>
+
+    <!-- <% for(let  i = 0; i < cursos.length; i++) { %>
+        <li><%= cursos[i]%></li>
+    <% } %> -->
+
+    <% for (let curso of cursos) { %> <!--for of (alternativa ao for convencional)-->
+        <li><%= curso %></li>
+    <% } %>
+
+    </ul>
+    <!--for of = percorrer todos elementos de um array
+        for in = percorrer todos atributos de um objeto-->
+</body>
+</html>
