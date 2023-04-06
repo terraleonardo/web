@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
     <h1>Bem vindo!</h1>
     <h3>5 + 5 = <%= 5 + 5 %></h3>
-    <p>Aperte F5 para gerar um novo número aleatório entre 1 e 10: <%= Math.ceil(Math.random() * 10) %>.</p>
+
+    <p>Aperte F5 para gerar um novo número aleatório entre 1 e 10: <%= numero %>.</p>
+    
+    <p>O númerero é <%= par ? 'par' : 'ímpar' %></p> <!--operador ternário (alternativa à if/else)-->
+
+    <!-- <% if(par) {%> 
+        <p>O número é par.</p>
+    
+    <%} else {%>
+        <p>O número é ímpar.</p>
+    <% } %> -->
+
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis quae dolore 
         unde quod illum, minima corporis similique eius temporibus totam laborum 
         voluptates fuga sequi, ex doloremque! Velit totam ex exercitationem.</p>
