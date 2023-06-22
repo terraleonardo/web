@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h2>Formulário que será enviado pelo método GET: </h2>
+    <form action="/mostraDados" method="get"> <!-- action = para onde o form será enviado -->
+        <label for="nome">Nome: </label> <!-- for = conecta com id -->
+        <input type="text" name="nome" id="nome"> <!-- name = nome da variavel -->
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="sobrenome">
+        <button>Enviar</button>
+    </form>
+    <br>
+
+    <h2>Formulário que será enviado pelo método POST: </h2>
+    <form action="/mostraDados" method="post"> <!-- action = para onde o form será enviado -->
+        <label for="nome">Nome: </label> <!-- for = conecta com id -->
+        <input type="text" name="nome" id="nome"> <!-- name = nome da variavel -->
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="text" name="sobrenome" id="sobrenome">
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
